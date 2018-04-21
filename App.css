@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.commentContainer{
+  width: 300px;
+  height: 200px;
+}
+.commentText{
+
+}
+.button-primary{
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: green;
+}
+.button-danger{
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  color: white;
+}
+
+.varsityList{
+  list-style: none;
+  margin: 0px;
+  width: 80%;
+  height: 30px;
+  padding: 5px;
+  margin-top: 8px;
+  color: #ececec;
+  background-color: #7b7b7b;
+  border-radius: 2px;
+  border: 0px;
+}
+
+.institutions-panel{
+  text-align: center;
+  width: 100%;
+  height: 45px;
+  padding: 2px;
+  background-color: #282828;
+}
+.icon{
+  float: left;
+  width: 28px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.button{
+  background-color: #92AB13;
+  height: 20px;
+  width: 120px;
+  border-radius: 5px;
+  margin:0 auto;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.main{
+  width: 130px;
+  border-radius: 150px;
+  line-height: 20px;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px 1px #8F9A9E;
+
+}
+.donation-panel{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+.donation-panel h1{
+  margin: 15px;
+  font-size: 50px;
+}
+.background-image{
+  position: absolute;
+  z-index: -2;
+  left: 0px;
+  height:inherit;
+}
+.money-button{
+  font-weight: bold;
+  font-size: 47px;
+  width: 25%;
+  float: left;
+  height: 40px;
+  line-height: 30px;
+}
+.danger{
+  color: red;
+}
+.primary{
+  color: #92AB13;
+}
+.money-toggles{
+  position: absolute;
+  margin-top: -80px;
+  width: 360px;
+  height: 40px;
+}
+.background-blur{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:inherit;
+  background-color: black;
+  opacity: 0.7;
+}
+.info{
+  float: left;
+  margin: 3px;
+  margin-top: 23px;
+  width: 117px;
+  color: white;
+  text-align: center;
+}
+
+.number_of_student{
+  font-size: 17px;
+  /*border-radius: 3px;*/
+  padding: 3px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width: 90px;
+  font-weight: bold;
+  border-bottom: 2px solid #efefef;
+ /* background-color: #bbb;*/
+}
+.info-container{
+  background-color: #8F9A9E;
+  width: 100%;
+  height: 130px;
+}
+.info-panel{
+  height: 90px;
+  width: 350px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+.funding-text{
+  width: 115px;
+  font-style: italic;
+  padding-left: 10px;
+  margin-top: 8px;
+  padding-right: 10px;
+}
+
+.varsity-list{
+  width: 230px;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #ececec;
+  overflow: hidden;
+}
+.bottom{
+  background-color: #8F9A9E;
+  height: 60px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  bottom: 0px;
+}
